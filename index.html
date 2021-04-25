@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/> 
+        <title>By Charlie | Front End Web Developer</title>
+        <link rel="stylesheet" href="portfoliostyle.css">
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Antonio&family=Noto+Serif+JP:wght@500&family=Rajdhani:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header class="navmenu">
+            <div id="logo"> 
+                <p>Web Design by Carlos</p>
+            </div>
+            <div class="navmenuLinks">
+            <a href="#aboutme">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contactform">Get in touch</a>
+            </div>
+        </header>
+
+        <section class="aboutme" id="aboutme">
+            <img src="images /PictureofMe.jpeg" alt="Picture of me">
+            <div class="mystory">
+                <h1> hi! I'm Carlos </h1>
+                <p>I am a Front-end Web Developer and recently participated at General Assembly's web developement bootcamp. 
+                I am passionate about designing websites and styling them, I come from an Information Technology background and 
+                being part of General Assembly has made me realize I made the right choice about becoming a Front-End Developer.
+                In my free time you'll find me at the gym, participating in tech meetups and conferences as well as researching 
+                web design techniques. 
+                </p>
+            </div>
+
+
+        </section>
+
+        <section class="skills" id="skills">
+            <h1>  MY SKILLS </h1>
+            <div class="skillslogos">
+                <img src="images /html.png" alt="html logo"/>
+                <img src="images /css.png" alt=" css logo"/>
+                <img src="images /java.png" alt="javascript logo"/>
+                <img class="adobe" src="images /illustrator.png" alt="illustrator logo"/>
+                <img class="adobe" src="images /photoshop.png" alt="photoshop"/>
+            </div>
+        </section>
+
+
+        <section class="projects" id="projects">
+            <h1>PROJECTS I HAVE WORKED ON</h1>
+            <div class="projectsgrid">
+                
+                <div class="Uberproject subgrid">
+                    <h4> The Uber Project</h4>
+                    <p> 
+                        For this projet, the instructions were to recreate the website according to 
+                        a screenshot povided, we worked in groups and our solution code provided the
+                        that we expected. The text editing tool we used was CodePen and if you want to take 
+                        a look at the final project, follow the link by clicking the button below.<br><br>
+                        <a href="https://codepen.io/mrcharlievlog/pen/dyNdWyO" target="_blank">SEE RESULT</a>
+                        </p>  <br>   
+                        <div class="Ubercol2 secondcolumn">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/uber-desktop.png" alt="screenshot Project 1"></img>                    
+                        </div>           
+                </div>
+                
+                
+                <div class="Airbnbproject subgrid">
+                    <h4> The AirBnb Project</h4>
+                    <p> 
+                        For this projet, the instructions were to recreate the website according to 
+                        a screenshot povided, we worked in groups and our solution code provided the
+                        that we expected. The text editing tool we used was CodePen and if you want to take 
+                        a look at the final project, follow the link by clicking the button below.<br><br>
+                        <a href="https://codepen.io/mrcharlievlog/pen/QWdazzZ?editors=1100" target="_blank">SEE RESULT</a>
+                        </p> <br>  
+                        <div class="airbnbcol2 secondcolumn">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/airbnb-solution-image.jpg" alt="Airbnb"></img>
+                        </div>                  
+                    
+                </div>
+
+                
+                
+                <div class="Matchproject subgrid">
+                    <h4> The Matchmaker Project</h4>
+                    <p> 
+                        For this projet, the instructions were to recreate the website according to 
+                        a screenshot povided, we worked in groups and our solution code provided the
+                        that we expected. The text editing tool we used was CodePen and if you want to take 
+                        a look at the final project, follow the link by clicking the button below.
+                    <br><br>
+                    <a href="https://codepen.io/mrcharlievlog/pen/OJWOZPj" target="_blank">SEE RESULT</a>
+                    </p><br>  
+                    <div class="matchcol2 secondcolumn">
+                        <img src="images /Project3.png" alt="screenshot Project 1"></img>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <div class="contactform" id="contactform">
+            <h1> Let's get in touch! </h1>
+            <form id="contact_form" action="action_page.php">
+
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="user-email" placeholder="Enter your email">         
+                <label for="subject">Message</label>
+                <textarea id="subject" name="subject" placeholder="Send me a Message"></textarea> 
+                <ul id="errors">
+                </ul> 
+            </form>
+            <input type="submit" value="Submit">
+
+        </div>
+
+        <footer>
+            <section class="footerbuttons">
+                    <a href="https://github.com/alv-carlos" target="_blank"><img src="icons/GitHub-Mark-120px-plus.png" alt="github"></img></a>
+                    <a href="https://codepen.io/mrcharlievlog" target="_blank"><img src="icons/codepenb.png" alt="Codepen"></img></a>
+                    <a href="https://www.linkedin.com/in/carlos-alvarezromero/" target="_blank"><img src="icons/LI-In-Bug.png" alt="linkedin"></img></a>
+            </section>
+        </footer>
+    </body>
+</html>

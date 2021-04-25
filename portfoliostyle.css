@@ -1,0 +1,313 @@
+/* ----------------------------------------------nav styles------------------------------------------------- */
+
+.navmenu { 
+    display: grid; 
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: 5rem;
+    grid-gap: 2rem;
+    align-items:flex-end;
+    background-color: #036970;
+    padding: 0 .5rem 0 1rem;    
+}
+
+.navmenuLinks { 
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    align-items: flex-end;
+    padding-right: 1.5rem;
+}
+
+.navmenu a { 
+    display: flex;
+    text-decoration: none;
+    align-items:baseline;
+    justify-content: flex-end;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 2vh;
+    padding-bottom: .5rem;
+}
+#logo { 
+    align-items: center;
+    background-color: transparent;
+    font-family: 'Antonio', sans-serif;
+    color: white;
+    font-size: 2.5vh;
+    padding-left: .5rem;
+    padding-bottom: 1.5rem;
+}
+#logo p { 
+    border-left: .1rem solid rgb(255, 255, 255, 0.3) ;
+    padding-left: 1rem;
+    margin: auto;
+    
+}
+/* ----------------------------------------------Body  styles------------------------------------------------- */
+body { 
+    font-family: 'Antonio', sans-serif;
+}
+
+p { 
+    align-content: center;
+}
+
+/* ----------------------------------------------About me styles------------------------------------------------- */
+
+
+.aboutme {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem;
+    align-items: center;
+    justify-items: center;
+    padding-top: 3rem;
+}
+
+.aboutme img { 
+    max-width: 90%;
+    max-height: auto;
+    clip-path: circle(30% at 50% 50%);
+    padding-top: 4rem;
+}
+
+.mystory h1 { 
+    font-family: 'Antonio', sans-serif;
+    font-size: 5vh;
+    color: #036970;
+}
+
+.mystory p { 
+    font-family: 'Rajdhani', sans-serif;
+    line-height: 2.3vh;
+    font-size: 2vh;
+}
+
+/* ---------------------------------------------- My Skills  styles------------------------------------------------- */
+.skills h1 { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4vh;
+    padding-top: 5rem;
+    color: #036970;
+}
+.skillslogos { 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    align-items: center;
+    justify-items: center;
+}
+
+.skillslogos img { 
+    max-height: 70%;
+    max-width: 80%;
+}
+
+
+/* ----------------------------------------------Projects styles------------------------------------------------- */
+
+.projects h1 { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4vh;
+    padding-top: 5rem;
+    color: #036970;
+}
+
+.projects p { 
+    font-family: 'Rajdhani', sans-serif;
+    line-height: 3vh;
+    font-size: 2vh;
+}
+
+.projectsgrid { 
+    display: flex;
+}
+
+.subgrid { 
+    flex-grow: 1;
+}
+
+.Ubercol2 img { 
+    max-height: 30vh;
+    max-width: 30vw;
+}
+
+.subgrid {
+    padding: 3rem; 
+}
+
+.airbnbcol2 img { 
+    max-height: 30vh;
+    max-width: 30vw;
+}
+
+.matchcol2 img { 
+    max-height: 30vh;
+    max-width: 20vw;
+}
+
+
+.projects h4 { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vh;
+    padding: 2rem 0 2rem 0 ;
+}
+
+.projects a { 
+    background-color: #036970; 
+    border-radius: .1rem;
+    color: white; 
+    font-weight: bold;
+    font-family: 'Antonio', sans-serif;
+    border: none;
+    text-decoration: none;
+    padding: 15px 30px 15px 30px;
+}
+/* ---------------------------------------------- Footer styles------------------------------------------------- */
+footer {
+    display: flex; 
+    align-content: center;
+    height: 8vh;
+    width: 100%;
+    background-image: linear-gradient(
+            to right,
+            hsl(145.05, 89.22%, 40%) 0%,
+            hsl(153.1, 90.04%, 37.77%) 1.8%,
+            hsl(160.13, 90.77%, 35.99%) 5.7%,
+            hsl(166.08, 91.4%, 34.58%) 11.5%,
+            hsl(170.99, 91.92%, 33.49%) 18.7%,
+            hsl(174.98, 92.36%, 32.64%) 27%,
+            hsl(178.28, 92.71%, 31.97%) 36.2%,
+            hsl(181.11, 93.15%, 31.96%) 45.9%,
+            hsl(183.64, 93.71%, 32.74%) 55.6%,
+            hsl(186.14, 94.27%, 33.56%) 65.2%,
+            hsl(188.9, 94.9%, 34.53%) 74.3%,
+            hsl(192.1, 95.64%, 35.75%) 82.5%,
+            hsl(195.85, 96.52%, 37.31%) 89.5%,
+            hsl(200.15, 97.55%, 39.32%) 95%,
+            hsl(204.91, 98.72%, 41.89%) 98.6%,
+            hsl(210, 100%, 45.1%) 100%
+        )  
+}
+
+.footerbuttons { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 2rem;
+}
+.footerbuttons img { 
+    padding-left: 1rem;
+    max-height: 4vh;
+    filter: brightness(0%);
+}
+
+
+/* ----------------------------------------------------Contact Form Styling -------------------------------------*/
+
+input[type=text], select, textarea {
+    width: 90vw; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical; 
+    font-family: 'Rajdhani', sans-serif;
+    }
+
+    .contactform textarea { 
+        font-family: 'Rajdhani', sans-serif;
+        padding-bottom: 1vh;
+    }
+
+
+
+    input[type=submit] {
+    background-color: #036970;
+    width: 20vw;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: auto;
+    }
+
+input[type=submit]:hover {
+    background-color: #45a049;
+    }
+
+.contactform {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color:white ;
+    padding: 20px;
+    font-size: 2vh;  
+}
+
+.contactform h1 { 
+    color: #036970; 
+    font-size: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+form { 
+    display: flex;
+    flex-direction: column;
+    height: 45vh;
+    margin: auto;
+    padding-bottom: 20px;
+    
+}
+
+.contactform ul { 
+    font-size: 1rem;
+    list-style-type: none;
+    color: red;
+}
+
+
+
+
+/* ------------------Media styling---------------------------- */
+
+/* @media only screen and (max-width: 600px) {
+
+    .projectsgrid { 
+        flex-direction: column;
+    }
+    
+}
+
+    /* @media only screen and (max-width: 900px) {
+    .projectsgrid { 
+        grid-template-columns: repeat(3, 1fr); 
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .projectsgrid { 
+        grid-template-columns: repeat(2, 1fr);
+    }
+} 
+
+@media only screen and (max-width: 400px) {
+    .projectsgrid { 
+        grid-template-columns: repeat(1, 1fr);
+    }
+}  */ 
+
+
+
+
+
